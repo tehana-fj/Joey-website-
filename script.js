@@ -1,4 +1,4 @@
 
-function showMessage() {
-    document.getElementById('message').innerText = 'You clicked the button!';
-}
+document.addEventListener("DOMContentLoaded", () => {
+  console.log("Joey's site is alive! 🔥");
+});

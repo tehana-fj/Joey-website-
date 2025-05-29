@@ -3,36 +3,46 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  background: #f4f4f9;
-  color: #333;
+  background: #fafafa;
+  color: #222;
 }
 
 header {
-  background: #4a90e2;
+  background: #6a5acd;
   color: white;
   padding: 2rem 1rem;
   text-align: center;
 }
 
+nav {
+  background: #eee;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
 main {
-  padding: 2rem 1rem;
-}
-
-.about, .fun {
-  margin-bottom: 2rem;
-}
-
-h1, h2 {
-  margin-bottom: 0.5rem;
-}
-
-ul {
-  list-style-type: square;
-  margin-left: 1.5rem;
+  padding: 2rem;
 }
 
 footer {
-  background: #eee;
+  background: #ddd;
   text-align: center;
   padding: 1rem;
   margin-top: 2rem;

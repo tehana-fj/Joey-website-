@@ -2,9 +2,18 @@
 <html lang="en">
 <head><meta charset="UTF-8"><title>Contact</title><link rel="stylesheet" href="style.css"></head>
 <body>
-<header><h1>Contact Me</h1></header>
-<nav><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="projects.html">Projects</a></li><li><a href="blog.html">Blog</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
-<main><section><p>Email: <a href="mailto:josephineladdpeter@gmail.com">josephineladdpeter@gmail.com</a></p><p>Instagram: <a href="https://instagram.com/j0ey.fj">@j0ey.fj</a></p></section></main>
+<header class="hero"><h1>Contact Me</h1></header>
+<nav><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="projects.html">Projects</a></li><li><a href="blog.html">Blog</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
+<main>
+<section class="fade-in">
+  <form action="https://formspree.io/f/mwkggbep" method="POST">
+    <label>Name:<br><input type="text" name="name" required></label><br>
+    <label>Email:<br><input type="email" name="_replyto" required></label><br>
+    <label>Message:<br><textarea name="message" rows="5" required></textarea></label><br>
+    <button type="submit">Send</button>
+  </form>
+</section>
+</main>
 <footer><p>© 2025 Josephine Sisilia Laddpeter</p></footer>
 </body>
 </html>

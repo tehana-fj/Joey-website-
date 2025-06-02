@@ -1,43 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Welcome to Joey's Site</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Josephine Sisilia Laddpeter</title>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+<script defer src="script.js"></script>
 </head>
 <body>
-  <header class="hero"><h1>Hello, I'm Joey ✨</h1></header>
+  <header>
+    <h1>Josephine Sisilia Laddpeter</h1>
+    <button id="dark-toggle">🌙</button>
+  </header>
+
   <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="blog.html">Blog</a></li>
       <li><a href="music.html">Music</a></li>
     </ul>
   </nav>
-  <main class="fade-in">
-    <button id="dark-toggle">Toggle Dark Mode</button>
+
+  <main>
     <section>
-      <h2>About Me</h2>
-      <p>I’m Josephine Sisilia Laddpeter – counselor, student, researcher, and now... website builder.</p>
+      <p>Welcome to my corner of the web. Counseling, research, and a little slice of life.</p>
+    </section>
+    <section class="gallery">
+      <img src="https://placekitten.com/300/200" alt="Cute kitten" />
+      <img src="https://placebear.com/300/200" alt="Cool bear" />
     </section>
     <section>
-      <h2>Photo Gallery</h2>
-      <div class="gallery">
-        <img src="https://placekitten.com/300/200" alt="Cute kitten">
-        <img src="https://placebear.com/300/200" alt="Cool bear">
-        <img src="https://placebeard.it/300x200" alt="Hip beard">
-      </div>
-    </section>
-    <section>
-      <h2>Contact Me</h2>
       <form>
-        <input type="text" placeholder="Your name">
-        <input type="email" placeholder="Your email">
-        <textarea placeholder="Your message"></textarea>
+        <input type="text" placeholder="Name" />
+        <input type="email" placeholder="Email" />
+        <textarea placeholder="Message"></textarea>
         <button type="submit">Send</button>
       </form>
     </section>
   </main>
-  <footer><p>© 2025 Josephine Sisilia Laddpeter</p></footer>
+
+  <footer>
+    <p>© 2025 Josephine Sisilia Laddpeter</p>
+  </footer>
 </body>
 </html>
